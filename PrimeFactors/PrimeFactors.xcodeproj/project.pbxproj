@@ -114,6 +114,7 @@
 		D3035B1E188357410039D2E2 /* PrimeFactors */ = {
 			isa = PBXGroup;
 			children = (
+				D3035B501883577B0039D2E2 /* iPad */,
 				D3035B27188357410039D2E2 /* PFTAppDelegate.h */,
 				D3035B28188357410039D2E2 /* PFTAppDelegate.m */,
 				D3035B2A188357410039D2E2 /* Main_iPhone.storyboard */,
@@ -153,6 +154,13 @@
 				D3035B43188357410039D2E2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3035B501883577B0039D2E2 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,7 +404,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PrimeFactors/PrimeFactors-Prefix.pch";
 				INFOPLIST_FILE = "PrimeFactors/PrimeFactors-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -409,7 +419,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PrimeFactors/PrimeFactors-Prefix.pch";
 				INFOPLIST_FILE = "PrimeFactors/PrimeFactors-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -2,6 +2,8 @@
 #import <OCHamcrestIOS/OCHamcrestIOS.h>
 #import <XCTest/XCTest.h>
 
+#import "PFTPrimeFactors.h"
+
 @interface PFTPrimeFactorsTest : XCTestCase
 
 @end
@@ -20,8 +22,9 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testPrimesOfOneIsOne
 {
+    assertThat([PFTPrimeFactors primesOf:@1], isEmpty());
 }
 
 @end

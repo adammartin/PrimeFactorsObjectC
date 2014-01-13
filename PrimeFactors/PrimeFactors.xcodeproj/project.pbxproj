@@ -23,6 +23,7 @@
 		D3035B45188357410039D2E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3035B43188357410039D2E2 /* InfoPlist.strings */; };
 		D3035B5618835D130039D2E2 /* PFTPrimeFactorsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D3035B5518835D130039D2E2 /* PFTPrimeFactorsTest.m */; };
 		D38761661883641C006EB57D /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38761651883641C006EB57D /* OCHamcrestIOS.framework */; };
+		D3876169188364FF006EB57D /* PFTPrimeFactors.m in Sources */ = {isa = PBXBuildFile; fileRef = D3876168188364FF006EB57D /* PFTPrimeFactors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		D3035B44188357410039D2E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D3035B5518835D130039D2E2 /* PFTPrimeFactorsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFTPrimeFactorsTest.m; sourceTree = "<group>"; };
 		D38761651883641C006EB57D /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrestIOS.framework; path = Frameworks/OCHamcrestIOS.framework; sourceTree = "<group>"; };
+		D3876167188364FF006EB57D /* PFTPrimeFactors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFTPrimeFactors.h; sourceTree = "<group>"; };
+		D3876168188364FF006EB57D /* PFTPrimeFactors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFTPrimeFactors.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 		D3035B1E188357410039D2E2 /* PrimeFactors */ = {
 			isa = PBXGroup;
 			children = (
+				D3876167188364FF006EB57D /* PFTPrimeFactors.h */,
+				D3876168188364FF006EB57D /* PFTPrimeFactors.m */,
 				D3035B501883577B0039D2E2 /* iPad */,
 				D3035B27188357410039D2E2 /* PFTAppDelegate.h */,
 				D3035B28188357410039D2E2 /* PFTAppDelegate.m */,
@@ -267,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3035B32188357410039D2E2 /* PFTViewController.m in Sources */,
+				D3876169188364FF006EB57D /* PFTPrimeFactors.m in Sources */,
 				D3035B25188357410039D2E2 /* main.m in Sources */,
 				D3035B29188357410039D2E2 /* PFTAppDelegate.m in Sources */,
 			);

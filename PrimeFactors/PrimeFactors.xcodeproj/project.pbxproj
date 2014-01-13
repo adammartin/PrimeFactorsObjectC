@@ -21,8 +21,8 @@
 		D3035B3C188357410039D2E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3035B18188357410039D2E2 /* Foundation.framework */; };
 		D3035B3D188357410039D2E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3035B1C188357410039D2E2 /* UIKit.framework */; };
 		D3035B45188357410039D2E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3035B43188357410039D2E2 /* InfoPlist.strings */; };
-		D3035B5418835C100039D2E2 /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3035B5318835C100039D2E2 /* OCHamcrestIOS.framework */; };
 		D3035B5618835D130039D2E2 /* PFTPrimeFactorsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D3035B5518835D130039D2E2 /* PFTPrimeFactorsTest.m */; };
+		D38761661883641C006EB57D /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38761651883641C006EB57D /* OCHamcrestIOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,8 @@
 		D3035B3A188357410039D2E2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D3035B42188357410039D2E2 /* PrimeFactorsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrimeFactorsTests-Info.plist"; sourceTree = "<group>"; };
 		D3035B44188357410039D2E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D3035B5318835C100039D2E2 /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrestIOS.framework; path = "../../../../Downloads/OCHamcrest-3.0.1/OCHamcrestIOS.framework"; sourceTree = "<group>"; };
 		D3035B5518835D130039D2E2 /* PFTPrimeFactorsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFTPrimeFactorsTest.m; sourceTree = "<group>"; };
+		D38761651883641C006EB57D /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrestIOS.framework; path = Frameworks/OCHamcrestIOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +76,8 @@
 			files = (
 				D3035B3B188357410039D2E2 /* XCTest.framework in Frameworks */,
 				D3035B3D188357410039D2E2 /* UIKit.framework in Frameworks */,
+				D38761661883641C006EB57D /* OCHamcrestIOS.framework in Frameworks */,
 				D3035B3C188357410039D2E2 /* Foundation.framework in Frameworks */,
-				D3035B5418835C100039D2E2 /* OCHamcrestIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +106,7 @@
 		D3035B17188357410039D2E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D3035B5318835C100039D2E2 /* OCHamcrestIOS.framework */,
+				D38761651883641C006EB57D /* OCHamcrestIOS.framework */,
 				D3035B18188357410039D2E2 /* Foundation.framework */,
 				D3035B1A188357410039D2E2 /* CoreGraphics.framework */,
 				D3035B1C188357410039D2E2 /* UIKit.framework */,
@@ -440,6 +440,7 @@
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"/Users/adammartin/Downloads/OCHamcrest-3.0.1",
+					/Users/adammartin/Programming/ObjectiveC/PrimeFactorsObjectC/PrimeFactors/Frameworks,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PrimeFactors/PrimeFactors-Prefix.pch";
@@ -464,6 +465,7 @@
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"/Users/adammartin/Downloads/OCHamcrest-3.0.1",
+					/Users/adammartin/Programming/ObjectiveC/PrimeFactorsObjectC/PrimeFactors/Frameworks,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PrimeFactors/PrimeFactors-Prefix.pch";
@@ -493,6 +495,7 @@
 				D3035B4C188357410039D2E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3035B4D188357410039D2E2 /* Build configuration list for PBXNativeTarget "PrimeFactorsTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +504,7 @@
 				D3035B4F188357410039D2E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

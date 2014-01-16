@@ -46,4 +46,9 @@
     assertThat([PFTPrimeFactors primesOf:4], contains(@2, @2, nil));
 }
 
+- (void)testPrimesOfSixIsTwoAndThree
+{
+    assertThat([PFTPrimeFactors primesOf:6], contains(@2, @3, nil));
+}
+
 @end

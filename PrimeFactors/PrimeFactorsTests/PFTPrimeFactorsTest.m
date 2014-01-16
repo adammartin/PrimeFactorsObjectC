@@ -36,4 +36,9 @@
     assertThat([PFTPrimeFactors primesOf:2], contains(@2, nil));
 }
 
+- (void)testPrimesOfThreeIsThree
+{
+    assertThat([PFTPrimeFactors primesOf:3], contains(@3, nil));
+}
+
 @end

@@ -3,9 +3,14 @@
 
 @implementation PFTPrimeFactors
 
-+ (NSMutableArray*)primesOf:(int)n
++ (NSArray*)primesOf:(int)n
 {
-    return [NSMutableArray array];
+    NSMutableArray* primes = [NSMutableArray array];
+    if(n > 1)
+    {
+        [primes addObject:[NSNumber numberWithInt:n]];
+    }
+    return primes;
 }
 
 @end

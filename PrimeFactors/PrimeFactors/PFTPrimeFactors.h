@@ -2,6 +2,6 @@
 
 @interface PFTPrimeFactors : NSObject
 
-+ (NSMutableArray*)primesOf:(int)n;
++ (NSArray*)primesOf:(int)n;
 
 @end

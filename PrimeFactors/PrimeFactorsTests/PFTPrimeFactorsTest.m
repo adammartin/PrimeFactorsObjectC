@@ -41,4 +41,9 @@
     assertThat([PFTPrimeFactors primesOf:3], contains(@3, nil));
 }
 
+- (void)testPrimesOfFourIsTwoAndTwo
+{
+    assertThat([PFTPrimeFactors primesOf:4], contains(@2, @2, nil));
+}
+
 @end

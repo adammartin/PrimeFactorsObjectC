@@ -21,7 +21,7 @@
     // Adding a sleep per http://goo.gl/uBdDcl
     // It appears there is a slight issue where tests can complete prior to main application being loaded.
     // Problem doesn't exist for logic tests.
-	[NSThread sleepForTimeInterval:1.0];
+	[NSThread sleepForTimeInterval:0.02];
     // Put teardown cvode here; it will be run once, after the last test case.
     [super tearDown];
 }
@@ -49,6 +49,11 @@
 - (void)testPrimesOfSixIsTwoAndThree
 {
     assertThat([PFTPrimeFactors primesOf:6], contains(@2, @3, nil));
+}
+
+- (void)testPrimesOfEightIsTwoTwoAndTwo
+{
+    assertThat([PFTPrimeFactors primesOf:8], contains(@2, @2, @2, nil));
 }
 
 @end

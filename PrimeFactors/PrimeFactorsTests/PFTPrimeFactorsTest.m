@@ -18,13 +18,14 @@
 
 - (void)tearDown
 {
-    // Put teardown code here; it will be run once, after the last test case.
+	[NSThread sleepForTimeInterval:1.0];
+    // Put teardown cvode here; it will be run once, after the last test case.
     [super tearDown];
 }
 
 - (void)testPrimesOfOneIsOne
 {
-    assertThat([PFTPrimeFactors primesOf:@1], isEmpty());
+    assertThat([PFTPrimeFactors primesOf:1], isEmpty());
 }
 
 @end

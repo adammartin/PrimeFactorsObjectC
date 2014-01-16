@@ -3,7 +3,7 @@
 
 @implementation PFTPrimeFactors
 
-+ (NSMutableArray*)primesOf:(NSNumber*)n
++ (NSMutableArray*)primesOf:(int)n
 {
     return [NSMutableArray array];
 }

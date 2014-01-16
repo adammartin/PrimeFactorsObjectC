@@ -56,4 +56,9 @@
     assertThat([PFTPrimeFactors primesOf:8], contains(@2, @2, @2, nil));
 }
 
+- (void)testPrimesOfNineIsThreeAndThree
+{
+    assertThat([PFTPrimeFactors primesOf:9], contains(@3, @3, nil));
+}
+
 @end

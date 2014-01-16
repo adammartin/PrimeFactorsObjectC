@@ -6,13 +6,15 @@
 + (NSArray*)primesOf:(int)n
 {
     NSMutableArray* primes = [NSMutableArray array];
-    if(n > 1)
+    int candidate = 2;
+    while(n > 1)
     {
-        while (n % 2 == 0)
+        while (n % candidate == 0)
         {
-            [primes addObject:[NSNumber numberWithInt:2]];
-            n /= 2;
+            [primes addObject:[NSNumber numberWithInt:candidate]];
+            n /= candidate;
         }
+        candidate++;
     }
     if (n > 1)
     {
